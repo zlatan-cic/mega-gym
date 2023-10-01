@@ -127,7 +127,70 @@
       color: var(--text-light);
     }
   }
-
-
-
 }
+
+// Section Classes
+
+.class__grid {
+  display: grid;
+  margin-top: 4rem;
+  gap: 2rem;
+  // background-color: tomato;
+
+  .class__card {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transform: .3s;
+  }
+
+  .img__class {
+    border-radius: 45px 0 0 0;
+  }
+
+  .class__card .class__bg {
+    position: absolute;
+    // max-width: 175px;
+    max-width: 150px;
+    top: -3rem;
+    // right: 1rem;
+    right: -.7rem;
+    z-index: -1;
+    opacity: 0;
+    transition: 0.9s ;
+    // transition: transform;
+  }
+
+  .class__card:hover .class__bg {
+    opacity: .5;
+  }
+
+  // // //
+  .class__card {
+    transition: .5s ease-in-out;
+  }
+  // // //
+
+  .class__card:hover {
+    transition: .5s ease-in-out;
+    transform: translateY(-5px);
+  }
+
+  .class__content {
+    flex: 1;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+
+    border-radius: 0 0 45px 0;
+  }
+
+  .class__content h4 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+
