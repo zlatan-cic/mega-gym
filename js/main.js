@@ -88,4 +88,11 @@ ScrollReveal().reveal(".price__card", {
   interval:500,
 });
 
+// Swiper
+const swiper = new Swiper(".swiper", {
+  loop:true,
+  slidesPreView:"auto",
+  spaceBetween:20,
+})
+
 
