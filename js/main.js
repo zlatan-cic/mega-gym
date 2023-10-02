@@ -2,7 +2,14 @@ const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
 
-// const link = document.querySelector('a');
+const links = document.querySelectorAll('#link');
+
+links.forEach(link => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    console.log("dasdada");
+  })
+})
 
 menuBtn.addEventListener("click", (e) => {
   e.preventDefault();
