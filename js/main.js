@@ -4,6 +4,14 @@ const menuBtnIcon = menuBtn.querySelector("i");
 
 const links = document.querySelectorAll('#link');
 
+const linksA = document.querySelectorAll('a')
+
+// linksA.forEach(link => {
+//   link.addEventListener('click', (e) => {
+//     e.preventDefault()
+//   })
+// })
+
 links.forEach(link => {
   link.addEventListener("click", (e) => {
     e.preventDefault();
