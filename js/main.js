@@ -98,9 +98,16 @@ ScrollReveal().reveal(".price__card", {
 
 // Swiper
 const swiper = new Swiper(".swiper", {
-  loop:true,
+  // centeredSlides: true,
   slidesPreView:"auto",
-  spaceBetween:20,
+  spaceBetween: 20,
+  loop:true,
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: false,
+  // },
+  
+
 })
 
 
