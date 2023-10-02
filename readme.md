@@ -1,6 +1,6 @@
 # Mega Gym Website
 
-This is a Gym Website build whit HTNL, SCSS, JS Whit Vite.
+This is a Gym Website build whit HTNL, SCSS, JS Whit Vite ,mobile responsive.
 
 - [Introduction](#introduction)
 - [Installation](#installation)
@@ -8,6 +8,8 @@ This is a Gym Website build whit HTNL, SCSS, JS Whit Vite.
 ## Logo of Mega Gym 
 ![Mega Gym Logo](./assets/Mega_gym_logo_(3).png)
 
+### Screenshot
+![Mega Gym Screenshot](./assets/gym_1.png)
 
 
 ## Introduction
