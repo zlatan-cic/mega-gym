@@ -82,4 +82,10 @@ ScrollReveal().reveal(".about__card", {
   interval:500,
 });
 
+// Price container
+ScrollReveal().reveal(".price__card", {
+  ...scrollRevalOption,
+  interval:500,
+});
+
 
